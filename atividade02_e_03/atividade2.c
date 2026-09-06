@@ -100,7 +100,7 @@ bool tentarColetar(Moeda *m, Vector2 posJogador, float raioJogador) {
 
     if (distancia <= somaRaios) {
         m->coletada = true;
-        m->tempoColeta = GetTime();  // NOVO: guarda o tempo da coleta
+        m->tempoColeta = GetTime();  
         return true;
     }
     return false;
